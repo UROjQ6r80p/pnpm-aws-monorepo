@@ -23,7 +23,7 @@ Lambda:
 ![image](https://github.com/UROjQ6r80p/pnpm-aws-monorepo/assets/90694123/92690ff8-72d9-4bba-9164-32086e85dc61)
 
 
-# on Windows:
+# on Windows (zip tools do not support symlinks on Windows)
 - download 7zip
 - `git clone https://github.com/UROjQ6r80p/pnpm-aws-monorepo`
 - `cd pnpm-aws-monorepo`
