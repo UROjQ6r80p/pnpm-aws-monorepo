@@ -31,7 +31,7 @@ Lambda:
 - `cd services/aws-lambda`
 - `pnpm --filter=aws-lambda --prod deploy dist`
 - `zip a -snl -ttar dist dist/` will be saved to `dist.tar`
-- copy .tar to Linux system. I use WSL
+- copy `dist.tar` to Linux system. I use WSL
 - on Linux unpack tar `tar -xvf dist.tar`
 - `cd dist`
 - `zip --symlinks -r dist.zip ./`
